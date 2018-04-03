@@ -1,0 +1,71 @@
+#metroMap_div {
+	width:840px;
+	height:1014px;
+}
+#test_points {
+	width:322px;
+	height:auto;
+	background-color:#fff;
+	display:block;
+}
+#all_block_points {
+	width:300px;
+	background-color:#fff;
+	display:none;
+	overflow: auto;
+	float:left;
+}
+#searchkey {
+	height:25px;
+}
+#current_gps,#map_zoom,#typesFilterContainer {
+	display:none;
+}
+#div_close {
+	display:none;
+	padding:5px 0 0 5px;
+	float:left;
+	cursor:pointer;
+}
+#map_canvas {
+	min-width:600px;
+	width:100%;
+	height:500px;
+}
+#all-points-list {
+	padding-left: 40px; 
+	padding-top: 8px; 
+	display: block; 
+	height: 31px; 
+	width: 420px; 
+	background: top left url(/images/icons/documents/Excel.gif) no-repeat;
+}
+.main_text {
+	position:relative;
+}
+#gmaps-overlay {
+	position: absolute;
+	z-index: 2;
+	width:auto;height:auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: transparent;
+}
+#map_checkboxes {
+	padding:10px 30px 10px 0px;
+}
+#map_checkboxes > div {
+	height:18px; float:left; margin:0 20px 10px 0;
+}
+#map_checkboxes sup {
+	color: #7F7F7F
+}
+.metro_station {
+	display:block;
+	position:absolute;
+	cursor:pointer;
+	z-index:2;
+	background-image:url('/about_bank/address/poi_data/img/metro_map_front.gif');
+}

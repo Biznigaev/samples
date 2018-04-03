@@ -1,0 +1,15 @@
+.main_text {
+	position:relative;
+}
+.right_menu.n_right_f {
+	float:right; width:300px; color:#000; display:block;
+}
+.operation-services {
+	width:400px;
+}
+.operation-services ul {
+	padding-left:40px !important;
+}
+.operation-services ul li {
+	list-style-type:initial !important;
+}

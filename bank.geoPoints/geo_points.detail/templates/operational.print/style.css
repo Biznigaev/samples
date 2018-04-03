@@ -1,0 +1,50 @@
+@import url('/css/main.css') all;
+body{
+	margin: auto;
+	background-color:#fff;
+}
+
+.main_text {
+	font-family: Tahoma;  
+	font-size: 12px;  
+	color: #616161;	
+}
+
+.main_text a { 
+     font-family:Tahoma;
+     font-size:13px;
+     color:#b20837;
+     text-decoration:underline;
+}
+
+.H1 {
+	font-family: Tahoma;  
+	font-size: 28px;  
+	color: #b20837;	
+	font-weight: 200;
+}
+
+.hidElem {
+	display: none;
+}
+
+.address_span{
+	color: #b20837;
+	font-size:12px;
+	margin-right:10px;
+}
+.main_text {
+	position:relative;
+}
+.right_menu.n_right_f {
+	float:right; width:300px; color:#000; display:block;
+}
+.operation-services {
+	width:400px;
+}
+.operation-services ul {
+	padding-left:40px !important;
+}
+.operation-services ul li {
+	list-style-type:initial !important;
+}
