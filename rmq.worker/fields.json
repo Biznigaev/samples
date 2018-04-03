@@ -1,0 +1,14 @@
+{
+	"title": 0,
+	"quantity": 1,
+	"weight": 2,
+	"multiplication_factor": 3,
+	"code_autorus": 4,
+	"modified": 5,
+	"commerce_price": 6,
+	"retail_price": 7,
+	"minimal_price": 8,
+	"supplier_price": 9,
+	"ttl": 10,
+	"goods_autorus": 11
+}
