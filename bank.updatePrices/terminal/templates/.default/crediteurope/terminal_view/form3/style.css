@@ -1,0 +1,50 @@
+body > div, table {
+	text-align:center;
+}
+.nowrap td span {
+	white-space:nowrap;
+}
+#data-div1 {
+	border:1px;
+	overflow:auto;
+}
+#data-div1 span {
+	white-space: nowrap;
+}
+#data-div1 thead th,
+#currList3 thead th,
+#data-div2 thead th {
+	background-color:#6a1686;
+	color:#fff;
+	padding: 4px;
+	width:100px;
+	text-align: center;
+}
+#currList3 thead th,
+#data-div2 thead th {
+	font-weight:bold;
+}
+#data-div2 {
+	border:1px;
+	overflow:auto;
+}
+#operList tbody td,
+#currList3 tbody td,
+#currList tbody td {
+	text-align: right;
+	font-weight: bold;
+}
+#currList3 {
+	margin-bottom:15px;
+}
+.BUY_AMOUNT,.SELL_AMOUNT,.RATE,.COMMENTS {
+	white-space: nowrap !important;
+}
+td.COMMENTS {
+	font-weight:100 !important;
+}
+iframe#auth {
+	display:none !important;
+	width:0px !important;
+	height:0px !important;
+}
